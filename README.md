@@ -52,3 +52,24 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/out .
 ENTRYPOINT ["dotnet", "ipcheck.dll"]
+
+## Azioni per la creazione del repository
+```comandi git
+
+git init
+git remote add origin https://<secret>@github.com/nfasoli/lab5.git
+git add .
+git commit -m "Primo commit"
+git branch -M main
+git push origin main
+
+## Azioni per il test in locale dell'immagine docker
+```comandi per il test locale dell''immagine
+docker build -t ipcheck:v1.0 .
+docker images
+docker run --rm ipcheck:v1.0
+
+
+## Ho poi creato un link fra le github actions e l'acr
+az acr task create --name lab5-task --registry conregistry12710 --image lab5:{{.Run.ID}} --context https://github.com/nfasoli/lab5.git#main  --file Dockerfile --git-access-token <secret> --base-image-trigger-type Runtime --resource-group Lab05 --output table 
+
