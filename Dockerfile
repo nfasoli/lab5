@@ -8,7 +8,14 @@
  COPY . ./
 
  # Publish application to the "out" folder
- RUN dotnet publish --configuration Release --output out
+ RUN dotnet publish --configuration Release --output /app/out
+
+ 
+# Stage 2: Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
+WORKDIR /app
+COPY --from=build /app/out .
+
 
  # Start container by running application DLL
- ENTRYPOINT ["dotnet", "out/ipcheck.dll"]
+ ENTRYPOINT ["dotnet", "ipcheck.dll"]
