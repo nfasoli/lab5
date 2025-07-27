@@ -1,7 +1,7 @@
 ﻿ // Check if network is available
  if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
  {
-     System.Console.WriteLine("Current IP Addresses v1.0:");
+     System.Console.WriteLine("Current IP Addresses v1.0: ");
 
      // Get host entry for current hostname
      string hostname = System.Net.Dns.GetHostName();
