@@ -1,11 +1,4 @@
 
-git init
-git remote add origin https://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@github.com/nfasoli/lab5.git
-git add .
-git commit -m "Primo commit"
-git branch -M main
-git push origin main
-
 # ipcheck – Progetto C# Dockerizzato
 
 Questo progetto è una applicazione C# containerizzata con Docker, pronta per essere compilata, eseguita localmente e distribuita tramite GitHub e Azure Container Registry.
