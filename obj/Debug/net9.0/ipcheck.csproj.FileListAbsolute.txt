@@ -1,0 +1,14 @@
+C:\Users\NicolaFasoli\git\Lab05\bin\Debug\net9.0\ipcheck.exe
+C:\Users\NicolaFasoli\git\Lab05\bin\Debug\net9.0\ipcheck.deps.json
+C:\Users\NicolaFasoli\git\Lab05\bin\Debug\net9.0\ipcheck.runtimeconfig.json
+C:\Users\NicolaFasoli\git\Lab05\bin\Debug\net9.0\ipcheck.dll
+C:\Users\NicolaFasoli\git\Lab05\bin\Debug\net9.0\ipcheck.pdb
+C:\Users\NicolaFasoli\git\Lab05\obj\Debug\net9.0\ipcheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NicolaFasoli\git\Lab05\obj\Debug\net9.0\ipcheck.AssemblyInfoInputs.cache
+C:\Users\NicolaFasoli\git\Lab05\obj\Debug\net9.0\ipcheck.AssemblyInfo.cs
+C:\Users\NicolaFasoli\git\Lab05\obj\Debug\net9.0\ipcheck.csproj.CoreCompileInputs.cache
+C:\Users\NicolaFasoli\git\Lab05\obj\Debug\net9.0\ipcheck.dll
+C:\Users\NicolaFasoli\git\Lab05\obj\Debug\net9.0\refint\ipcheck.dll
+C:\Users\NicolaFasoli\git\Lab05\obj\Debug\net9.0\ipcheck.pdb
+C:\Users\NicolaFasoli\git\Lab05\obj\Debug\net9.0\ipcheck.genruntimeconfig.cache
+C:\Users\NicolaFasoli\git\Lab05\obj\Debug\net9.0\ref\ipcheck.dll
