@@ -1,4 +1,3 @@
-dd
 
 # ipcheck – Progetto C# Dockerizzato
 
